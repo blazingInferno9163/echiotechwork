@@ -1,0 +1,248 @@
+/* Studio.css */
+.istudio-container {
+  background: linear-gradient(180deg, #252525 0%, #000000 100%);
+  width: 1440px;
+  height: 900px;
+  angle: 0deg;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+}
+.text-section{
+  height:184px ;
+  width: 846px;
+  gap:24px ;
+  margin-top: 100px;
+}
+
+  
+.iheading {
+  font-family: 'Syne', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 284px;
+  height: 96px;
+  position: absolute;
+  left: 600px;
+  margin-top: 10px;
+  background: linear-gradient(0.4deg, #C8F8FF 0.35%, #19C2D9 50%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+  
+.itext {
+  position: absolute;
+  margin-top: 130px;
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 300px;
+  width: 846px;
+  height: 64px;
+}
+
+  
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 220px;
+    margin-left: -650px;
+    padding-bottom: 100px;
+    width: 1280px;
+    height: 600px;
+  }
+  
+  
+  .image2 {
+    position: absolute;
+    margin-top: 200px;
+    z-index: 0;
+    width: 519px;
+    height: 600px;
+    
+    
+  }
+  
+
+  .image1{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1500px;
+    width: 519px;
+    height: 600px;
+  }
+  .image3{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 1280px;
+    z-index: 100;
+    height: 440px;
+    width: 299px;
+  }
+  .image4{
+    position:absolute;
+    margin-left: 120px;
+    margin-top: 180px;
+    height: 440px;
+    width: 299px;
+    
+  }
+  .image5{
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 180px;
+    z-index: 500;
+    width:800px ;
+    height:400px ;
+  }
+
+  .istudio-container2 {
+    background: linear-gradient(180deg, #252525 0%, #000000 100%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    height: 900px;
+    width: 1440px;
+    
+  }
+  .data-container {
+    width: 1280px;
+    height: 385.8px;
+    top: 4824px;
+    left: 80px;
+    justify-content: space-between;
+  }
+
+  .inner-container{
+    height:352px ;
+    width: 628px;
+    gap:40px ;
+  }
+
+  .text-container {
+    width: 628px;
+    height: 256px;
+    gap: 32px;
+  }
+
+  .image-container2{
+    width: 514.34px;
+    height: 385.8px;
+    gap: 32px;
+   
+  }
+
+  
+  
+  
+  
+  .iheading2 {
+    width: 332px;
+    height: 96px;
+    font-family: 'Syne', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: linear-gradient(92.57deg, #00EDFF -1.02%, #B1FAFF 108.81%);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-right: 300px;
+    margin-top: 50px;
+    
+    position: absolute;
+    
+  }
+  
+  .itext2 {
+    font-family: Syne;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    left: 600px;
+    padding-top: 300px;
+    width: 628px;
+    height: 128px;
+    margin-left: 100px;
+  }
+  
+  .imagev1 {
+    width: 514.34px;
+    height: 311.8px;
+    border: 2px solid #EEEEEE;
+    gap: 10px;
+    position:absolute;
+    margin-top: -250px;
+    margin-left: -150px;
+    ;
+  }
+  .buttons-container2{
+    position: absolute;
+    width: 416.81px;
+    height: 56px;
+    gap: 40px;
+    margin-top: 150px;
+    margin-left: 700px;
+  }
+  #button9 {
+    width: 208.81px;
+    height: 56px;
+    padding: 11px 16px 11px 24px;
+    border-radius: 4px;
+    border: 1px solid;
+    margin-right: 20px;
+    gap: 4px;
+    background: linear-gradient(180deg, #00D4F1 0%, #00CFEB 0.01%, #5AEBFF 51%, #00B6CF 100%);
+    border-image-source: linear-gradient(0.4deg, #C8F8FF 0.35%, #19C2D9 50%);
+  }
+
+  #button8 {
+    width: 168px;
+    height: 56px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 4px;
+    border: 1px solid #EEEEEE;
+    gap: 4px;
+    background-color: #000000;
+    color:white;
+  }
+  #button9 span {
+    width: 131px;
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #090B0B;
+  }
+  #button8 span {
+    width: 120px;
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #EEEEEE;
+  }
+  
+  
+  
+  
+  

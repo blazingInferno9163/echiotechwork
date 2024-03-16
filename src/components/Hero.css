@@ -1,0 +1,124 @@
+.hero-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(180deg, #252525 0%, #000000 100%);
+}
+
+.text-container {
+  width: 411px;
+  height: 184px;
+  color: #fff;
+  font-family: 'Syne', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 350px;
+  
+}
+
+.text-container p{
+  
+    width: 411px;
+    height: 96px;
+    color: #fff;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: -100px;
+    margin-right: 50px;
+  }
+  
+
+
+
+.image-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Adjusted to stack elements vertically */
+  align-items: center;
+  margin-right: 650px;
+}
+
+.image-container h1 {
+  font-size: 100px;
+  margin-top: -250px; /* Adjusted to provide space between text and image */
+  margin-left: 500px;
+  
+}
+
+.white-text {
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  -webkit-background-clip: text;
+  
+  color: transparent;
+  font-family: 'Syne', sans-serif;
+
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 89px;
+  text-align: center;
+  white-space: nowrap; 
+}
+
+
+.gradient-text {
+  background: linear-gradient(0.4deg, #C8F8FF 0.35%, #19C2D9 50%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Syne','Cabin';
+  font-weight: 700;
+  font-size: 110px;
+  line-height: 88px;
+  text-align: center;
+}
+
+
+.img2 {
+  z-index: 1;
+  position: relative; /* Adjusted to make positioning relative to parent */
+  margin-top: -100px; /* Adjusted to provide space between text and image */
+  margin-left: 500px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 0; /* Removed the unnecessary margin-right */
+}
+
+.button10 {
+  width: 189.81px;
+  height: 56px;
+  padding: 11px 16px 11px 24px;
+  border-radius: 4px;
+  border: 1px solid;
+  gap: 4px;
+  background: linear-gradient(180deg, #00D4F1 0%, #00CFEB 0.01%, #5AEBFF 51%, #00B6CF 100%);
+  border-image-source: linear-gradient(0.4deg, #C8F8FF 0.35%, #19C2D9 50%);
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  margin-right: 50px;
+}
+
+
+.button10 span {
+  width: 112px;
+  height: 24px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.2px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #090B0B;
+  
+  
+}

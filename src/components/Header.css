@@ -1,0 +1,184 @@
+.container {
+    display: flex;
+    background: linear-gradient(to right, #252525, #252525);
+    font-family: 'Syne', sans-serif;
+     
+}
+.menu {
+    display: none;
+    font-size: 28px;
+    position: fixed;
+    right: 20px; /* Initial position */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+}
+
+/* Media query for smaller container widths */
+@media only screen and (max-width: 360px) {
+    .menu {
+        font-size: 24px; /* Decrease font size for smaller containers */
+        right: 10px; /* Adjust position */
+    }
+}
+
+/* Media query for wider container widths */
+@media only screen and (min-width: 1025px) {
+    .menu {
+        font-size: 32px; /* Increase font size for wider containers */
+        right: 40px; /* Adjust position */
+    }
+}
+
+
+header {
+    
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 30px 0;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+header img {
+    max-width: 100%; /* Increased the max-width for the logo */
+    height: auto;
+    margin-left: -120px; /* Adjusted margin-left for the logo */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-left: 30px; /* Adjusted margin-left for the entire nav */
+    position: absolute;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 50px; /* Adjusted margin-right for equal spacing */
+    font-size: 18px; /* Increased font size for li */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    height: 24px;
+}
+
+
+
+#login-btn {
+    width: 179.81px;
+    height: 56px;
+    padding: 11px 16px 11px 24px;
+    border-radius: 4px;
+    border: 1px solid;
+    gap: 4px;
+    background: linear-gradient(180deg, #00D4F1 0%, #00CFEB 0.01%, #5AEBFF 51%, #00B6CF 100%);
+    border-image-source: linear-gradient(0.4deg, #C8F8FF 0.35%, #19C2D9 50%);
+    cursor: pointer; /* Add cursor pointer for better user interaction */
+    transition: background 0.3s ease-in-out; /* Add transition for smoother color change */
+
+    /* Additional styles for better alignment */
+    display: flex;
+    align-items: center;
+}
+
+#login-btn span {
+    width: 102px;
+    height: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block;
+    color: #090B0B;;
+
+}
+
+#login-btn::before {
+    content: '\2197'; /* Unicode arrow character pointing top right */
+    position: absolute;
+    top: 50%;
+    right: 5px; /* Adjusted right distance for space between arrow and text */
+    transform: translateY(-50%);
+    font-size: 18px; /* Adjust the font size of the arrow */
+    color: black; /* Arrow color */}
+
+
+
+/* Additional styles for better alignment */
+nav li:first-child {
+    margin-left: 30px; /* Remove the margin for the first li element */
+}
+
+
+@media only screen and (max-width: 760px) {
+    nav ul,
+    #login-btn {
+        display: none; /* Hide ul and login button for mobile */
+    }
+    .menu{
+        display: block;
+        right: 45%;
+        
+        
+    }
+    
+ }
+
+ @media only screen and (max-width: 760px) {
+    header {
+        margin-left: 100px; /* Adjusted margin-left for tablets */
+
+    }
+    
+}
+
+@media only screen and (min-width: 761px) and (max-width: 1024px) {
+    header {
+        margin-left: 100px; /* Adjusted margin-left for tablets */
+    }
+    .menu {
+        display: block;
+        right: 45%; /* Adjusted distance from the right edge for tablets */
+    }
+}
+@media only screen and (max-width: 360px) {
+    .container {
+        width: 328px; /* Fixed width */
+        height: auto; /* Allowing height to be dynamic */
+        justify-content: space-between; /* Spacing between elements */
+        padding: 0 16px; /* Adjust padding as needed */
+    }
+}
+
+/* For widths between 361px and 768px */
+@media only screen and (min-width: 361px) and (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust width percentage as needed */
+        height: auto; /* Allowing height to be dynamic */
+        justify-content: space-between; /* Spacing between elements */
+        padding: 0 16px; /* Adjust padding as needed */
+    }
+}
+
+/* For widths between 769px and 1024px */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: 90%; /* Adjust width percentage as needed */
+        height: auto; /* Allowing height to be dynamic */
+        justify-content: space-between; /* Spacing between elements */
+        padding: 0 32px; /* Adjust padding as needed */
+    }
+}
+
